@@ -13,4 +13,4 @@ elk:
     - "9200:9200"
     - "5044:5044"
 volumes:
-    - './logstash-input.local.conf:/etc/logstash/conf.d/03-input.conf'
+    - "./logstash-input.local.conf:/etc/logstash/conf.d/03-input.conf"
